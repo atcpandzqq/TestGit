@@ -16,7 +16,10 @@ public class GoodTest {
         Arrist.add(2); Arrist.add(2);
         Arrist.add(2);
         System.out.println(Arrist.size());
-        for (int i =  Arrist.size(); i >=0; i--) {
+        for (int i =  Arrist.size()-1; i >=0; i--) {
+
+            System.out.println(Arrist.get(i));
+            Arrist.remove(Arrist.get(i));
 
         }
 
