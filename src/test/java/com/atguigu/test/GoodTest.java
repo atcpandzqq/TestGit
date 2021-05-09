@@ -19,7 +19,7 @@ public class GoodTest {
         for (int i =  Arrist.size()-1; i >=0; i--) {
 
             System.out.println(Arrist.get(i));
-            Arrist.remove(Arrist.get(i));
+            Arrist.remove(fghfg);
 
         }
 
